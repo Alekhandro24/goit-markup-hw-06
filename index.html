@@ -311,7 +311,7 @@
             <div class="subscribe-us">
                 <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
                 <form class="subscribe-form">
-                    <input type="email" class="subscribe-input" name="user-email" placeholder="E-mail">
+                    <input type="email" class="subscribe-input" name="user-email" placeholder="E-mail" required>
                     <button type="submit" class="subscribe-button">
                         <span class="subscribe-span">Подписаться</span>
                         <span>
@@ -368,14 +368,13 @@
                     <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
                 </div>
                 
-                <div class="form-field agreement-field">
+                <div class="agreement-field">
                     <input type="checkbox" name="terms-agreement" id="terms-agreement" value="true" class="agreement-input visually-hidden">
                     <label for="terms-agreement" class="check-text">Соглашаюсь с рассылкой и принимаю <a href=""><span class="agreement">Условия договора</span></a></label>
                 </div>
 
-                <div class="button-send">
-                    <button type="submit" class="send-button">Отправить</button>
-                </div>
+                <button type="submit" class="send-button">Отправить</button>
+                
                 
             </form>
         </div>
