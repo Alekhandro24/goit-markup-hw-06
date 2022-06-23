@@ -298,8 +298,8 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     
-    min-width: 528px;
-    min-height: 581px;
+    width: 528px;
+    height: 581px;
     
     padding: 40px;
     background-color: #ffffff;
@@ -392,7 +392,7 @@ img {
 }
 
 .modal-input:hover {
-    border-color: teal;
+    border-color: #2188f3;
 }
 
 .modal-input:focus {
@@ -411,7 +411,7 @@ img {
 }
 
 .modal-input:hover + .icon-form {
-    fill: teal;
+    fill: #2188f3;
 }
 .modal-input:focus + .icon-form {
     fill: var(--accent-color);
@@ -432,7 +432,7 @@ img {
 }
 
 .textarea-field textarea:hover {
-    border-color: teal;
+    border-color: #2188f3;
 }
 
 .textarea-field textarea:focus {
@@ -449,7 +449,7 @@ img {
 }
 
 .textarea-field textarea::placeholder:hover {
-    color: teal;
+    color: #2188f3;
 }
 
 .textarea-field {
@@ -959,7 +959,6 @@ img {
 .subscribe-input:hover,
 .subscribe-input:focus {
     border-color: #EEEEEE;
-    outline-color: var(--accent-color);
 }
 
 .subscribe-button {
